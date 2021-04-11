@@ -7,12 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
         integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
+        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Heart of Vinyl</title>
 </head>
 
 <body>
     <!--For the navbar I used one of the templates on Bootstrap as it is much more responsive in all platforms and the layout is nice and simple and clean, which is one of the reasons why I liked it so much as well-->
-    <nav class="navbar navbar-dark bg-dark navbar-nav navbar-expand-md">
+    <nav class="navbar navbar-dark navbar-nav navbar-expand-md" style="background-color: #2d142c;">
         <a href="/" class="navbar-brand">Heart Of Vinyl</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
@@ -29,10 +30,21 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">Contact Us</a>
               </li>
+              <li class="nav-item mr-2 d-block d-sm-none">
+                <a class="nav-link" href="/login">Join Us</a>
+              </li>
             </ul>
           </div>
+          <!--For the "Join Us" button I decided to copy the model used on Whiskey Drop project and make a few alterations to fit my page.
+          The template used on Whiskey Drop fitted perfectly on what I wanted to to for my own project-->
+          <div class="d-none d-md-block">
+            <p class="navbar-text my-auto mr-2"><i>Interested in being part of the team?</i></p>
+            <a href="/login" class="btn btn--warning">Join us!</a>
+        </div>
     </nav>
     <div class="container-fluid"></div>
 </body>
-
+<footer>
+  
+</footer>
 </html>

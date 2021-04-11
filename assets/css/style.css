@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;500&family=Roboto:wght@400;500&display=swap");
+
+/*----------------NavBar------------------*/
+
+.navbar {
+  padding: 0;
+  margin: 0;
+  height: 100px;
+}
+
+.navbar-brand {
+  padding: 10px;
+  margin: 5px;
+  color: #fafafa;
+  font-size: 29px;
+  letter-spacing: 2px;
+  font-family: "Lobster", sans-serif;
+  font-weight: 200;
+}
+
+.navbar-text {
+  color: #fafafa;
+}
+
+.nav-link {
+  font-family: "Playfair Display", sans-serif;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.navbar-dark {
+  background-color: #2d142c;
+}
+
+/*-----------------------------------Buttons for Nav----------------------*/
+
+.btn--warning {
+  color: #fafafa;
+  background-color: #510a32;
+  font-family: "Roboto", sans-serif;
+  border-width: 2px;
+}
+
+.btn {
+  padding: 10px;
+  margin: 0 16px 0 0;
+}
+
+i {
+  font-family: "Playfair Display", sans-serif;
+  letter-spacing: 1px;
+}
+
+.btn--warning:hover,
+.btn--warning:active,
+.btn--warning:focus,
+.btn--warning:active:focus {
+  color: #fafafa;
+  background-color: #2d142c;
+  border-color: #fafafa;
+}
