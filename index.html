@@ -5,44 +5,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
-        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous" />
-        <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css">
     <title>Heart of Vinyl</title>
 </head>
-
 <body>
-    <!--For the navbar I used one of the templates on Bootstrap as it is much more responsive in all platforms and the layout is nice and simple and clean, which is one of the reasons why I liked it so much as well-->
-    <nav class="navbar navbar-dark navbar-nav navbar-expand-md" style="background-color: #2d142c;">
-        <a href="/" class="navbar-brand">Heart Of Vinyl</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Gallery</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-              <li class="nav-item mr-2 d-block d-sm-none">
-                <a class="nav-link" href="/login">Join Us</a>
-              </li>
-            </ul>
-          </div>
-          <!--For the "Join Us" button I decided to copy the model used on Whiskey Drop project and make a few alterations to fit my page.
-          The template used on Whiskey Drop fitted perfectly on what I wanted to to for my own project-->
-          <div class="d-none d-md-block">
-            <p class="navbar-text my-auto mr-2"><i>Interested in being part of the team?</i></p>
-            <a href="/login" class="btn btn--warning">Join us!</a>
-        </div>
-    </nav>
-    <div class="container-fluid"></div>
+<header style=" background-color: rgb(54, 69, 79, 0.1);">
+  <a href="index.html">
+    <h1 id="brand-name">Heart Of Vinyl</h1>
+  </a>
+  <nav>
+    <ul id="nav-items">
+     <li>
+       <a href="#">Join us</a>
+     </li>
+     <li>
+      <a href="#">Donate</a>
+    </li>
+    <li>
+      <a href="#">Gallery</a>
+    </li>
+    <li>
+      <a class="active" href="index.html">Home</a>
+    </li>
+    </ul>
+  </nav>
+</header>
 </body>
 <footer>
   

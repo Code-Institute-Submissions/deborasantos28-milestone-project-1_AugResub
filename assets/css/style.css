@@ -1,61 +1,57 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display:wght@400;500&family=Roboto:wght@400;500&display=swap");
 
-/*----------------NavBar------------------*/
-
-.navbar {
-  padding: 0;
+/*-----------------------NavBar-------------------------*/
+*{
   margin: 0;
-  height: 100px;
+  padding: 0;
+  border: 0;
+}
+header {
+  background-color: rgb(54, 69, 79, 0.1);
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#brand-name {
+float: left;
+font-family: "Lobster", sans-serif;
+font-size: 270%;
+font-weight: 300;
+margin-left: 30px;
+letter-spacing: 2px;
 }
 
-.navbar-brand {
-  padding: 10px;
-  margin: 5px;
-  color: #fafafa;
-  font-size: 29px;
+#nav-items {
+  font-size: 150%;
+  list-style-type: none;
   letter-spacing: 2px;
-  font-family: "Lobster", sans-serif;
-  font-weight: 200;
-}
-
-.navbar-text {
-  color: #fafafa;
-}
-
-.nav-link {
   font-family: "Playfair Display", sans-serif;
-  font-size: 20px;
-  letter-spacing: 2px;
 }
 
-.navbar-dark {
-  background-color: #2d142c;
+h1{
+  color: #0b0e10;
 }
 
-/*-----------------------------------Buttons for Nav----------------------*/
-
-.btn--warning {
-  color: #fafafa;
-  background-color: #510a32;
-  font-family: "Roboto", sans-serif;
-  border-width: 2px;
+#brand-name, #nav-items {
+line-height: 75px;
 }
 
-.btn {
-  padding: 10px;
-  margin: 0 16px 0 0;
+#nav-items li{
+  float: right;
+  margin-right: 30px;
 }
 
-i {
-  font-family: "Playfair Display", sans-serif;
-  letter-spacing: 1px;
+#nav-items a{
+  text-decoration: none;
+  color: inherit;
 }
 
-.btn--warning:hover,
-.btn--warning:active,
-.btn--warning:focus,
-.btn--warning:active:focus {
-  color: #fafafa;
-  background-color: #2d142c;
-  border-color: #fafafa;
+#nav-items a:hover {
+  border-radius: 15px;
+  border: 1px solid #1b2328;
+}
+
+.active {
+  border-radius: 15px;
+  border: 1px solid #1b2328;
 }
