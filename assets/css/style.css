@@ -23,6 +23,7 @@ letter-spacing: 2px;
 
 #nav-items {
   font-size: 150%;
+  font-weight: 200;
   list-style-type: none;
   letter-spacing: 2px;
   font-family: "Playfair Display", sans-serif;
@@ -54,4 +55,19 @@ line-height: 75px;
 .active {
   border-radius: 15px;
   border: 1px solid #1b2328;
+}
+
+
+/*----------------Hero-Image--------------------------*/
+
+#hero-image, img {
+  width: 100%;
+  background-image: url("../images/hero-image-people.jpg") no-repeat center center;
+}
+
+#hero-outline {
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
 }
