@@ -1,3 +1,8 @@
+.jumbotron{
+    background:url('../images/hero-image.jpg') center center fixed;
+    background-size: cover;
+}
+
 .img-fluid{
     max-width: 100%;
     max-height: auto;
@@ -33,7 +38,6 @@
 .col-sm-4{
     border: 2px solid;
     border-color: #313e47;
-    border-top: none;
 }
 h5{
     font-family: "Playfair Display", sans-serif;
