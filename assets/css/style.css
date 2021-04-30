@@ -61,4 +61,23 @@ footer, p{
 text-align: center;
 }
 
+.btn {
+    background-color: darkred;
+    border: 1px solid black;
+}
+
+.col-sm-6{
+    margin: 20px 0 20px 0;
+}
+
+label{
+    font-family: "Playfair Display", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#submit-button{
+    text-align: center;
+}
+
 
