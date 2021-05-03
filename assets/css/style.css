@@ -1,3 +1,4 @@
+
 .jumbotron{
     background:url('../images/hero-image.jpg') center center fixed;
     background-size: cover;
@@ -12,6 +13,12 @@
     padding: 0;
     margin: 0;
 }
+
+.row{
+    margin-right: 0;
+    margin-left: 0;
+}
+
 .navbar-brand{
     font-family: "Lobster", sans-serif;
     font-weight: 200;
@@ -36,22 +43,26 @@
 }
 
 .col-sm-4{
-    border: 2px solid;
+    border: 2px dashed;
     border-color: #313e47;
+    padding: 5px 5px 0px 10px;
+    margin-bottom: 5px;
 }
 h5{
     font-family: "Playfair Display", sans-serif;
     font-weight: 400;
     color: black;
     text-align: center;
-    margin-top: 16px;
+    margin-top: 10px;
 }
 
 footer, p{
     text-align: center;
     font-family: "Roboto", sans-serif;
     color: black;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 15px;
+    padding-top: 5px;
 }
 
 .jumbotron,
@@ -78,6 +89,34 @@ label{
 
 #submit-button{
     text-align: center;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline-block;
+    letter-spacing: 10px;
+}
+
+.social-icons ul{
+    padding-top: 30px;
+}
+
+.social-icons i{
+    font-size: 35px;
+    text-align:center;
+    color: #20292f;
+}
+
+.social-icons .fa-pinterest-square{
+ color: darkred;
+}
+
+.social-icons h5{
+    padding-top: 13%;
+}
+
+.donation-info h5{
+    padding-top: 13%;
 }
 
 
