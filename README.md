@@ -71,6 +71,12 @@
 
 
 # Testing 
+|Test Label  | Test Action | Expected Outcome | Test Outcome |
+|:--|:--|:--|:--:|
+| Navbar | Navigated through all the links in the navbar|All the links to be responsive and lead to their respective pages | PASS 
+|Gallery | Loaded and Refreshed the page, also hovered over the photos | The photos should all load fully and when hovered over they should increase in size due to the hover effect | PASS 
+|Join-us Form | Filled the required fields to make sure it displays the "required field" message. Pressed the submit button to ensure that the form gets submited to an external source | The required fields should display the correct message, unabling the user from sending any information unless all fields have been filled. The form should submit to an external source | PASS
+|Social Media Links | Clicked on all media links to make sure they are responsive and open in a new tab | All social media links should open in a new tab and should be responsive when clicked on | PASS |
 
 ## Validator Testing
 * CSS
@@ -80,12 +86,18 @@
 
   * No errors were found when testing on the official [W3C Validator](https://validator.w3.org/)
 
+## Browser Compatibility 
+ * This website has been tested and verified to work on various browsers such as : Chrome, Firefox and Edge.
 
+## Responsiveness
+ * The website has been tested on small, medium and large screens. 
+The smallest screen tested on was ip
 # Deployment 
 
 * The website was deployed to GitHub pages.
 The steps taken were the following:
-
+  
+     * Open 
   * Access the settings on the GitHub repository
   * On the left hand side menu, navigate and select the Master Branch.
   * Once the master branch is selected, the page will automatically refresh and display a message for the successful deployment.
