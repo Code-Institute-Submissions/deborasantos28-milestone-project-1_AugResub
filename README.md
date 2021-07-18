@@ -112,13 +112,10 @@ The steps taken were the following:
 Need to include user stories 
 
 # User Stories
-* As a member of the community I would like to be able to contribute more towards the LGBTQ+ community, as well as be more involved in activities and meet more individuals within the community. 
-Also, I feel that by donating to this charity is an oportunity to give back to people that have given so much as well. 
-With this in mind, the target for this platform is as follows:
-  * Creating a safe space to be able to meet and share without prejudice
-  * All the money is reverted back into the community by helping the victims of abuse, violence and homophobia
-  * Share the love for music and the vintage with vinyl trading and selling.   
-
+| User Story | Acceptance Criteria |
+|--|--| 
+| As a member of the LGBTQ+ and a user of this website I would like to know more about this charity.| * Scroll down to the end of the page. <br /> * On the left corner of the footer access the contact details and Address <br /> * Alternatively, contact us directly on social medias and discord chat |
+As member of the community and music enthusiast, I would like to be a part of this charity activities. | * On top of the page, navigate throught the menu <br /> * Click on the Join-us option on the menu <br /> * Fill in the required fields on the provided form <br /> * The form and the reasons for wanting to join the charity will be reviewed | 
 # Credits
 
 * For the Gallery I used the code from [MDB Bootstrap Static Gallery](https://mdbootstrap.com/docs/standard/extended/gallery/#section-lightbox) for a responsive and simple layout. A few alterations were made to the code along with the customized CSS. 
