@@ -90,19 +90,34 @@
  * This website has been tested and verified to work on various browsers such as : Chrome, Firefox and Edge.
 
 ## Responsiveness
- * The website has been tested on small, medium and large screens. 
-The smallest screen tested on was ip
+ * This website has been tested on small, medium and large screens. 
+ * Xs screens have only been tested in the responsive setting on Google Developer tools. 
+
 # Deployment 
 
 * The website was deployed to GitHub pages.
 The steps taken were the following:
   
-     * Open 
-  * Access the settings on the GitHub repository
-  * On the left hand side menu, navigate and select the Master Branch.
-  * Once the master branch is selected, the page will automatically refresh and display a message for the successful deployment.
+  1. On the prefered Internet Browser, access [Google](https://www.google.com/)
+  2. On [Google](https://www.google.com/), type in Github to access the [Github](https://github.com/) page
+  3. When accessing [Github](https://github.com/) create an account following the provided steps
+  4. After creating an account and profile, create a new/first repository by clicking on "New"
+  5. With the new repository now in place the project can now be started
+  6. After the project is concluded it is ready for deployment 
+  7. For deployment access the settings on the GitHub repository
+  8. On the left hand side menu, navigate and select the Master Branch.
+  9. Once the master branch is selected, the page will automatically refresh and display a message for the successful deployment.
 
 * For GitHub page live link [Click here!](https://deborasantos28.github.io/milestone-project-1/)
+Need to include user stories 
+
+# User Stories
+* As a member of the community I would like to be able to contribute more towards the LGBTQ+ community, as well as be more involved in activities and meet more individuals within the community. 
+Also, I feel that by donating to this charity is an oportunity to give back to people that have given so much as well. 
+With this in mind, the target for this platform is as follows:
+  * Creating a safe space to be able to meet and share without prejudice
+  * All the money is reverted back into the community by helping the victims of abuse, violence and homophobia
+  * Share the love for music and the vintage with vinyl trading and selling.   
 
 # Credits
 
