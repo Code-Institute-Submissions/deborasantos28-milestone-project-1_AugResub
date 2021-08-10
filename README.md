@@ -73,7 +73,9 @@
 
 ## Layout
 
-* For this project I have used Bootstrap to make an entirely responsive website in all devices. <br> I have used containers and bootstrap column system to be able to create an even an responsive grid for the website. <br> In the center I implemented another bootstrap feauture which is the Jumbotron, to house information about the website, a "slogan" and the button to redirect to the Join Us form. <br> With the gallery I used one of the bootstrap gallery displays but changed the layout completely, but by using it guaranteed me to have a more even and responsive display on all devices.
+* For this project I have used Bootstrap to make an entirely responsive website in all devices. <br> I have used containers and bootstrap column system to be able to create an even an responsive grid for the website.
+* In the center I implemented another bootstrap feauture which is the Jumbotron, to house information about the website, a "slogan" and the button to redirect to the Join Us form. 
+* With the gallery I used one of the bootstrap gallery displays but changed the layout completely, but by using it guaranteed me to have a more even and responsive display on all devices.
 
 * The design of this website was made thinking of mobile first. When tested in different devices, all the content is displayed neatly and aligned. 
 
@@ -136,7 +138,7 @@
 * Dropdown menu;
 * A more detailed about section;
 * Wireframes on readme.md
-
+* An Am I Responsive Screenshots (the Am I Responsive website has been having some issues)
 
 # Technologies Used
 
